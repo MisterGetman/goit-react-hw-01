@@ -1,0 +1,60 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 36px auto;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 450px;
+  height: 450px;
+  text-align: center;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.cardInfo {
+  margin-bottom: auto;
+}
+.avatar {
+  border-radius: 50%;
+  background-color: #2a2a2a;
+  width: 200px;
+  margin: 16px auto;
+}
+
+.userName {
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.textSecondary {
+  color: #808080;
+}
+
+.cardStats {
+  display: flex;
+  background-color: #d3d3d3;
+}
+
+.cardStats li {
+  flex-grow: 1;
+  flex-basis: 0;
+  border-top: 2px solid #808080;
+  border-right: 2px solid #808080;
+}
+
+.cardStats li:last-child {
+  border-right: none;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.statsText {
+  display: block;
+}
+
+.bold {
+  font-weight: 700;
+}

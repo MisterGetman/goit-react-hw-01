@@ -1,9 +1,24 @@
 import "./App.css";
+import Profile from "./components/Profile/Profile.jsx";
+import FriendList from "./components/FriendList/FriendList.jsx";
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory.jsx";
+
+import userData from "./components/Profile/data.json";
+import friends from "./components/FriendList/data.json";
+import transactions from "./components/TransactionHistory/data.json";
 
 function App() {
   return (
     <>
-      <h1>Vite + React Template</h1>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 }

@@ -1,0 +1,36 @@
+.transactions {
+  border-collapse: collapse;
+  max-width: 768px;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.transactions td,
+.transactions th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.transactions tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.transactions tr:hover {
+  background-color: #ddd;
+}
+
+.transactions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #2a2a2a;
+  color: white;
+}
+
+td.type {
+  text-align: left;
+}
+
+.type::first-letter {
+  text-transform: capitalize;
+}

@@ -1,0 +1,22 @@
+.friend {
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 100px;
+  text-align: center;
+}
+
+.friend img {
+  margin: 10px auto 24px;
+}
+
+.name {
+  font-size: 24px;
+}
+
+.status {
+  color: #ff1e1a;
+}
+
+.online {
+  color: #018000;
+}
